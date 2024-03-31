@@ -3,6 +3,10 @@
 I plan ChainCraft to be a some kind of crypto currency mod, it is good to notice that the name "ChainCraft" has nothing to do with real life Blockchains.
 Currencies you can create in this mod is rather centralized shit, but actually it may work as a good payment system.
 
+### Blocks and items.
+Coin Creator - a block that opens a gui upon a right click where you can create your own coin.
+
+
 
 
 
