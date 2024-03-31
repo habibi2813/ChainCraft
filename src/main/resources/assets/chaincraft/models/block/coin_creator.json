@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chaincraft:block/coin_creator_black",
+    "up": "chaincraft:block/coin_creator_black",
+    "north": "chaincraft:block/coin_maker_texture",
+    "east": "chaincraft:block/coin_creator_black",
+    "south": "chaincraft:block/coin_creator_black",
+    "west": "chaincraft:block/coin_creator_black",
+    "particle": "chaincraft:block/coin_creator_black"
+  },
+  "render_type": "solid"
+}

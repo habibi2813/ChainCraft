@@ -1,0 +1,80 @@
+{
+  "mod_elements": [
+    {
+      "name": "CoinCreator",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_creator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chaincraft/models/block/coin_creator.json",
+          "src/main/java/net/mcreator/chaincraft/block/CoinCreatorBlock.java",
+          "src/main/resources/assets/chaincraft/blockstates/coin_creator.json",
+          "src/main/resources/assets/chaincraft/models/item/coin_creator.json"
+        ]
+      }
+    },
+    {
+      "name": "ChainCraft",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chain_craft",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "CoinCreatorGui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_creator_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chaincraft/client/gui/CoinCreatorGuiScreen.java",
+          "src/main/java/net/mcreator/chaincraft/world/inventory/CoinCreatorGuiMenu.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "gui.chaincraft.coin_creator_gui.coin_name": "Coin name",
+      "gui.chaincraft.coin_creator_gui.label_coin_creator": "Coin Creator",
+      "block.chaincraft.coin_creator": "Coin Creator",
+      "gui.chaincraft.coin_creator_gui.coin_supply": "Coin Supply",
+      "item_group.chaincraft.chain_craft": "Chain Craft",
+      "gui.chaincraft.coin_creator_gui.Wallet_password": "Team wallet password",
+      "gui.chaincraft.coin_creator_gui.coin_symbole": "Coin Symbole",
+      "gui.chaincraft.coin_creator_gui.supply_for_team": "Supply for team (%)",
+      "gui.chaincraft.coin_creator_gui.creator_wallet_adress": "Team wallet (9 digits)",
+      "gui.chaincraft.coin_creator_gui.button_create_coin": "Create Coin"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "chaincraft",
+    "modName": "ChainCraft",
+    "version": "1.0.0",
+    "author": "habibii, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.chaincraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

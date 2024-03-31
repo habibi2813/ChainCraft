@@ -1,0 +1,115 @@
+{
+  "_fv": 57,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 300,
+    "height": 232,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_coin_creator",
+          "text": {
+            "fixedValue": "Coin Creator"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 179,
+          "y": 8
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Coin name",
+          "name": "coin_name",
+          "width": 120,
+          "height": 20,
+          "x": 151,
+          "y": 20
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Coin Symbole",
+          "name": "coin_symbole",
+          "width": 120,
+          "height": 20,
+          "x": 151,
+          "y": 41
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Coin Supply",
+          "name": "coin_supply",
+          "width": 120,
+          "height": 20,
+          "x": 151,
+          "y": 62
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Supply for team (%)",
+          "name": "supply_for_team",
+          "width": 120,
+          "height": 20,
+          "x": 151,
+          "y": 83
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Team wallet (9 digits)",
+          "name": "creator_wallet_adress",
+          "width": 120,
+          "height": 20,
+          "x": 151,
+          "y": 104
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Team wallet password",
+          "name": "Wallet_password",
+          "width": 120,
+          "height": 20,
+          "x": 151,
+          "y": 125
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_create_coin",
+          "text": "Create Coin",
+          "isUndecorated": false,
+          "width": 82,
+          "height": 20,
+          "x": 171,
+          "y": 147
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

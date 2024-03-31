@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "chaincraft:block/coin_creator"
+    }
+  }
+}
