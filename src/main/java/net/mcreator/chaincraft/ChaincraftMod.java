@@ -29,6 +29,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.chaincraft.init.ChaincraftModTabs;
 import net.mcreator.chaincraft.init.ChaincraftModMenus;
 import net.mcreator.chaincraft.init.ChaincraftModItems;
 import net.mcreator.chaincraft.init.ChaincraftModBlocks;
@@ -54,6 +55,8 @@ public class ChaincraftMod {
 		ChaincraftModBlocks.REGISTRY.register(bus);
 
 		ChaincraftModItems.REGISTRY.register(bus);
+
+		ChaincraftModTabs.REGISTRY.register(bus);
 
 		ChaincraftModMenus.REGISTRY.register(bus);
 	}
