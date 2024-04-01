@@ -1,0 +1,245 @@
+{
+  "mod_elements": [
+    {
+      "name": "CoinCreator",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_creator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chaincraft/models/block/coin_creator.json",
+          "src/main/java/net/mcreator/chaincraft/block/CoinCreatorBlock.java",
+          "src/main/resources/assets/chaincraft/blockstates/coin_creator.json",
+          "src/main/resources/assets/chaincraft/models/item/coin_creator.json"
+        ]
+      }
+    },
+    {
+      "name": "ChainCraft",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chain_craft",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "CoinCreatorGui",
+      "type": "gui",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_creator_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chaincraft/client/gui/CoinCreatorGuiScreen.java",
+          "src/main/java/net/mcreator/chaincraft/world/inventory/CoinCreatorGuiMenu.java",
+          "src/main/java/net/mcreator/chaincraft/network/CoinCreatorGuiButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "CoinCreatorOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_creator_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chaincraft/procedures/CoinCreatorOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UponCoincreate",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upon_coin_create",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chaincraft/procedures/UponCoincreateProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Coincap",
+      "type": "config",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coincap",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chaincraft/configuration/CoincapConfiguration.java"
+        ]
+      }
+    },
+    {
+      "name": "Ethcreate",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ethcreate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chaincraft/procedures/EthcreateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "guistate",
+            "type": "map"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Usdtcreate",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "usdtcreate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chaincraft/procedures/UsdtcreateProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Btccreate",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "btccreate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chaincraft/procedures/BtccreateProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Solcreate",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solcreate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chaincraft/procedures/SolcreateProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Dogecreate",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dogecreate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chaincraft/procedures/DogecreateProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Adacreate",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adacreate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chaincraft/procedures/AdacreateProcedure.java"
+        ],
+        "dependencies": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "gui.chaincraft.coin_creator_gui.coin_name": "Coin name",
+      "config.chaincraft.coincap": "coin_cap",
+      "gui.chaincraft.coin_creator_gui.button_btc": "BTC",
+      "gui.chaincraft.coin_creator_gui.label_read_wiki": "READ WIKI!!!",
+      "gui.chaincraft.coin_creator_gui.button_usdt": "USDT",
+      "block.chaincraft.coin_creator": "Coin Creator",
+      "gui.chaincraft.coin_creator_gui.button_sol": "SOL",
+      "gui.chaincraft.coin_creator_gui.button_doge": "DOGE",
+      "gui.chaincraft.coin_creator_gui.coin_supply": "Coin Supply",
+      "item_group.chaincraft.chain_craft": "Chain Craft",
+      "gui.chaincraft.coin_creator_gui.Wallet_password": "Team wallet password",
+      "gui.chaincraft.coin_creator_gui.coin_symbole": "Coin Symbole",
+      "gui.chaincraft.coin_creator_gui.test": "test",
+      "gui.chaincraft.coin_creator_gui.creator_wallet_adress": "Team wallet (9 digits)",
+      "gui.chaincraft.coin_creator_gui.label_coin_creator": "Coin Creator",
+      "gui.chaincraft.coin_creator_gui.button_ada": "ADA",
+      "gui.chaincraft.coin_creator_gui.supply_for_creator": "Supply for creator",
+      "gui.chaincraft.coin_creator_gui.button_eth": "ETH",
+      "gui.chaincraft.coin_creator_gui.supply_for_team": "Supply for team (%)",
+      "gui.chaincraft.coin_creator_gui.button_create_coin": "Create Coin"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "chaincraft",
+    "modName": "ChainCraft",
+    "version": "1.0.0",
+    "author": "habibii, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.chaincraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

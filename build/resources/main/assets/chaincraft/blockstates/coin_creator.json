@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "chaincraft:block/coin_creator"
+    },
+    "facing=east": {
+      "model": "chaincraft:block/coin_creator",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "chaincraft:block/coin_creator",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "chaincraft:block/coin_creator",
+      "y": 270
     }
   }
 }

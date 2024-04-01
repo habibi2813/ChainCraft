@@ -21,86 +21,135 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 179,
+          "x": 186,
+          "y": 17
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_eth",
+          "text": "ETH",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Ethcreate"
+          },
+          "width": 40,
+          "height": 20,
+          "x": 69,
+          "y": 211
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_usdt",
+          "text": "USDT",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Usdtcreate"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 116,
+          "y": 211
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_btc",
+          "text": "BTC",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Btccreate"
+          },
+          "width": 40,
+          "height": 20,
+          "x": 170,
+          "y": 211
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_sol",
+          "text": "SOL",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Solcreate"
+          },
+          "width": 40,
+          "height": 20,
+          "x": 218,
+          "y": 211
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_doge",
+          "text": "DOGE",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Dogecreate"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 266,
+          "y": 211
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_ada",
+          "text": "ADA",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Adacreate"
+          },
+          "width": 40,
+          "height": 20,
+          "x": 319,
+          "y": 211
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_read_wiki",
+          "text": {
+            "fixedValue": "READ WIKI!!!"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 68,
           "y": 8
         }
       },
       {
         "type": "textfield",
         "data": {
-          "placeholder": "Coin name",
-          "name": "coin_name",
+          "placeholder": "Supply for creator",
+          "name": "supply_for_creator",
           "width": 120,
           "height": 20,
-          "x": 151,
-          "y": 20
+          "x": 158,
+          "y": 32
         }
       },
       {
         "type": "textfield",
         "data": {
-          "placeholder": "Coin Symbole",
-          "name": "coin_symbole",
+          "placeholder": "test",
+          "name": "test",
           "width": 120,
           "height": 20,
-          "x": 151,
-          "y": 41
-        }
-      },
-      {
-        "type": "textfield",
-        "data": {
-          "placeholder": "Coin Supply",
-          "name": "coin_supply",
-          "width": 120,
-          "height": 20,
-          "x": 151,
-          "y": 62
-        }
-      },
-      {
-        "type": "textfield",
-        "data": {
-          "placeholder": "Supply for team (%)",
-          "name": "supply_for_team",
-          "width": 120,
-          "height": 20,
-          "x": 151,
-          "y": 83
-        }
-      },
-      {
-        "type": "textfield",
-        "data": {
-          "placeholder": "Team wallet (9 digits)",
-          "name": "creator_wallet_adress",
-          "width": 120,
-          "height": 20,
-          "x": 151,
-          "y": 104
-        }
-      },
-      {
-        "type": "textfield",
-        "data": {
-          "placeholder": "Team wallet password",
-          "name": "Wallet_password",
-          "width": 120,
-          "height": 20,
-          "x": 151,
-          "y": 125
-        }
-      },
-      {
-        "type": "button",
-        "data": {
-          "name": "button_create_coin",
-          "text": "Create Coin",
-          "isUndecorated": false,
-          "width": 82,
-          "height": 20,
-          "x": 171,
-          "y": 147
+          "x": 91,
+          "y": 107
         }
       }
     ],
