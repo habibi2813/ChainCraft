@@ -7,7 +7,7 @@ Currencies you can create in this mod is rather centralized shit, but actually i
 Coin Creator - a block that opens a gui upon a right click where you can create your own coin.
 
 Mod version is 1.20.1 feel free to fork it and help mod development.
-Mod is mostly being created with MCreator.
+Mod is fully created in MCreator
 
 
 
