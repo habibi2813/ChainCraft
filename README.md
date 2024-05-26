@@ -8,5 +8,4 @@ Coin Creator - a block that opens a gui upon a right click where you can create 
 
 Mod version is 1.20.1 feel free to fork it and help mod development.
 
-
-
+26.05.2024 Mod will be written completly in java, without MCreator.
